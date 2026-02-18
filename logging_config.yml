@@ -1,0 +1,7 @@
+version: 1.0.0
+
+handlers:
+  file_handler:
+    class: logging.FileHandler
+    args: ('revenue_ecosystem.log', 'a', 'utf-8')
+    formatter: detailed_formatter
