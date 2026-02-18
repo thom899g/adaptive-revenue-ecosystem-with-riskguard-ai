@@ -1,0 +1,6 @@
+# Configuration parameters for the Adaptive Revenue Ecosystem
+params:
+  risk_tolerance: 0.05
+  data_feed_url: "market_data_feed"
+  logging_level: INFO
+  system_mode: PRODUCTION
